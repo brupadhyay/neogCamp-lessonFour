@@ -27,6 +27,7 @@ nav h1 {
 /*input div*/
 
 #txt-input {
+    font-size: 20px;
     margin: auto;
     border-radius: 0.5rem;
     height: 10vh;
@@ -37,6 +38,7 @@ nav h1 {
 }
 
 .btn-translate {
+    cursor: pointer;
     background-color: var(--primary-color);
     padding: 1rem 2rem;
     margin: 2rem;
@@ -56,7 +58,8 @@ nav h1 {
     margin-bottom: 1rem;
 }
 
-.output {
+.output {    
+    font-size: 20px;
     overflow: scroll;
     margin: auto;
     height: 10vh;
